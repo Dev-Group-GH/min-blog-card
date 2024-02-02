@@ -1,4 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Sora&display=swap");
+@font-face {
+    font-family: Sora;
+    src: url("./fonts/Sora-VariableFont_wght.ttf");
+}
 
 * {
     margin: 0;
@@ -17,13 +20,13 @@ main {
 
 #mainDiv {
     margin-top: 8%;
-    width: 40%;
+    width: 30%;
     height: auto;
     background-color: hsl(0, 0%, 100%);
     padding: 16px;
-    font-family: Sora;
     border-radius: 25px;
     box-shadow: 5px 5px 5px hsl(212.7, 26.8%, 92%);
+    font-family: Sora;
 }
 
 #cactus {
@@ -51,13 +54,16 @@ main {
 #title {
     font-size: 1.125rem;
     margin: 16px 0 6px 0;
+    font-weight: 600;
 }
 
 #para {
     font-size: 0.875rem;
     margin: 6px 0 20px 0;
-    color: 3E5EAF0;
+    color: #6C727F;
+    font-family: Sora;
     font-weight: 100;
+    inline-size: 320px;
 }
 
 hr {
