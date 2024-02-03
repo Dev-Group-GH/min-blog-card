@@ -68,8 +68,11 @@ main {
 
 hr {
     height: 1px;
+    overflow: visible;
     background-color: #E5EAF0;
     border: none;
+    border-right: 0;
+    border-left: 0;
 }
 
 #name {
